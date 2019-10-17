@@ -1,0 +1,77 @@
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	body{
+		font-size: 16px;
+		font-family: Arial, sans-serif;
+		top: 0;
+	}	
+
+	.ham-container{
+		position: fixed;
+		z-index: 90;
+		display: block;
+	}
+
+	.hamberguer{
+		top: 20px;
+		left: 30px;
+		position: absolute;
+		font-size: 30px; 
+		color:white; 
+		cursor: pointer;
+		
+	}
+
+	
+
+	#mySideNav{
+	width: 0;
+	height: 100vh;
+	z-index: 100;
+	background-color: black;
+	opacity: 0.8;
+	display: block;
+	position: fixed;
+	text-align: center;
+	transition: width 1s; 
+	overflow-x: hidden;
+
+	}
+
+	#mySideNav.openMenu{
+		width:50vw; 
+	}
+
+    #closeIcon{
+    position: absolute;
+    right: 15px;
+    font-size: 50px;
+	margin-left: 30px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-family: Arial;
+
+	}
+
+	.sideNav a{
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+	padding: 10px;
+	font-family: Arial;
+	margin-top: 30px;
+
+	}
+
+	.sideNav a:hover{
+	color: rgb(0, 255, 170);
+	}
+@media screen and (max-width: 800px){
+	
+}
